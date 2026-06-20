@@ -1,0 +1,10 @@
+﻿item,value
+requested_counties,33
+monthly_rows,2310
+county_year_samples,330
+skipped_county_year_samples,0
+hunan_counties,25
+jingzhou_counties,8
+source_hunan_monthly,D:\26毕业论文\论文\数据\下载数据_裁剪\湖南全县_模型输入表_2010_2021\all_hunan_counties_model_input_2010_2021_full.csv
+source_jingzhou_yield,D:\26毕业论文\论文\数据\中国各县域农作物播种面积和产量数据\湖北荆州统计年鉴\荆州8县水稻单产_2012_2021.xlsx
+source_boundary,D:\26毕业论文\论文\数据\下载数据_裁剪\Dongting_Admin_Boundary\dongting_admin_boundary.gpkg

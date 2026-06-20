@@ -1,0 +1,18 @@
+Source,PublishedFile
+output_figures/研究区位置图/Untitled Diagram.drawio.png,图1.1_技术路线图.png
+final_thesis_docx::word/media/image3.png,图2.1_研究区位置及县域分布图.png
+output_figures/第三章方法图表/图3.3_LSTM网络结构图.png,图3.1_LSTM网络结构图.png
+output_figures/第三章方法图表/图3.4_Bi-LSTM网络结构图.png,图3.2_Bi-LSTM网络结构示意图.png
+output_figures/第三章方法图表/图3.5_模型训练流程图.png,图3.3_模型训练流程图.png
+output_figures/遥感与气象因子时序变化特征图/生长季遥感因子月尺度变化图_英文数字新罗马_LST置顶不裁切.png,图4.1_生长季遥感因子月尺度变化.png
+output_figures/遥感与气象因子时序变化特征图/气象因子月尺度变化_左右轴标签间距协调.png,图4.2_生长季气象因子月尺度变化.png
+output_figures/2012—2021年洞庭湖区水稻单产年际变化/2012—2021年洞庭湖区水稻单产年际变化_删除左上角框.png,图4.3_2012—2021年研究区平均水稻单产年际变化.png
+output_figures/损失曲线/Bi-LSTM训练集与验证集损失变化曲线_纵轴损失值_新罗马字体.png,图4.4_Bi-LSTM训练集与验证集损失曲线.png
+output_figures/第四章建议重做新增图表/图4.5_不同模型测试集预测值与实测值散点图.png,图4.5_不同模型测试集预测值与实测值散点图.png
+output_figures/随机划分下三模型精度对比_参考风格.png,图4.6_不同模型精度与误差对比.png
+output_figures/第四章建议重做新增图表/图4.8_不同年份测试集预测误差变化_RMSE_MAE_英文数字新罗马.png,图4.7_不同年份测试集预测误差变化.png
+output_figures/第四章建议重做新增图表/图4.8_Bi-LSTM测试集整体残差直方图_裁剪.png,图4.8_Bi-LSTM测试集整体残差直方图.png
+output_figures/第四章建议重做新增图表/图4.7_Bi-LSTM水稻单产多年平均空间估算结果_双图色带.png,图4.9_Bi-LSTM水稻单产多年平均空间估算结果.png
+output_figures/第四章建议重做新增图表/图4.8_Bi-LSTM水稻单产多年平均预测误差空间分布_色带.png,图4.10_Bi-LSTM水稻单产多年平均预测误差空间分布.png
+output_figures/特征重要性图/Bi-LSTM变量置换重要性排序图_RMSE相对增幅_无误差线.png,图4.11_Bi-LSTM变量置换重要性排序图.png
+output_figures/Pearson相关性热图/水稻单产与主要因子Pearson相关性热图_run111_12因子-裁剪后.png,图4.12_水稻单产及主要因子的Pearson相关性热图.png

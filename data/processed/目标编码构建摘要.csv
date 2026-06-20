@@ -1,0 +1,2 @@
+﻿source_dir,output_dir,sample_count,global_train_yield_mean,added_feature_count,note
+D:\保保\论文\run73_33县输入数据_历史滞后特征_20260520_235001,D:\保保\论文\run73_33县输入数据_历史滞后_训练集目标编码_20260521,330,6.514234750159986,14,目标编码特征仅由 run_105 训练集真实单产统计得到，验证集和测试集未参与统计。

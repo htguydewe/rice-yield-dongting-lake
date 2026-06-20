@@ -1,0 +1,10 @@
+﻿source,source_keys,matched_keys,sample_unmatched,path
+county_year,290,200,130,D:\保保\论文\数据\农业机制变量\机制变量录入模板_县年.csv
+glorice,290,200,130,D:\保保\论文\数据\农业机制变量\GloRice_水稻面积复种代理\clean\县年GloRice水稻面积复种代理_2012_2021.csv
+structure,290,200,130,D:\保保\论文\数据\农业机制变量\稻作结构_灌溉代理\clean\县年早中晚稻占比_GloRice_MCI代理_2012_2021.csv
+extreme,290,200,130,D:\保保\论文\数据\农业机制变量\极端天气_ERA5Land\县年极端天气指标_ERA5Land_2012_2021.csv
+static,29,20,13,D:\保保\论文\数据\农业机制变量\机制变量录入模板_县级静态.csv
+soil_texture,29,20,13,D:\保保\论文\数据\农业机制变量\外部下载_土壤DEM\县级SoilGrids土壤质地_USDA_0_30cm.csv
+soil_org,29,20,13,D:\保保\论文\数据\农业机制变量\外部下载_土壤DEM\县级SoilGrids土壤有机质_0_30cm.csv
+slope,29,20,13,D:\保保\论文\数据\农业机制变量\外部下载_土壤DEM\县级CopernicusDEM坡度均值.csv
+irrigation,29,20,13,D:\保保\论文\数据\农业机制变量\稻作结构_灌溉代理\clean\县级灌溉条件_GMIA_v5代理.csv

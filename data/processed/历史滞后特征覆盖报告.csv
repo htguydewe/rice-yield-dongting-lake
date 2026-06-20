@@ -1,0 +1,17 @@
+﻿column,non_missing,missing,missing_rate
+yield_lag1,297,33,0.1
+rice_sown_area_lag1,297,33,0.1
+yield_lag2,264,66,0.2
+rice_sown_area_lag2,264,66,0.2
+yield_lag3,231,99,0.3
+rice_sown_area_lag3,231,99,0.3
+yield_rolling2_mean_prior,297,33,0.1
+yield_rolling3_mean_prior,297,33,0.1
+yield_rolling3_std_prior,264,66,0.2
+yield_county_expanding_mean_prior,297,33,0.1
+yield_county_expanding_std_prior,264,66,0.2
+rice_sown_area_rolling3_mean_prior,297,33,0.1
+rice_sown_area_yoy_change,297,33,0.1
+rice_sown_area_yoy_rate,297,33,0.1
+yield_lag1_minus_prior3_mean,297,33,0.1
+year_since_2012,330,0,0.0

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+node_modules/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large raw geospatial/data files
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gdb/
+*.nc
+*.zip
+*.rar
+*.7z
+
+# Model binaries
+*.joblib
+*.pkl
+*.keras
+*.h5
+*.pt
+*.pth
+
+# Logs and temporary outputs
+*.log
+*.err
+*.out
+tmp*/
+temp*/
+
+# Thesis drafts and office/PDF artifacts
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.pdf
+

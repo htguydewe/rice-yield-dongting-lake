@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+tensorflow
+xgboost
+matplotlib
+seaborn
+joblib
+geopandas
+rasterio
+netCDF4
+openpyxl
+pyreadstat
+scipy
+

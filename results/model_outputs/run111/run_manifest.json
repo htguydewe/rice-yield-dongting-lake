@@ -1,0 +1,87 @@
+{
+  "run_id": "run_111",
+  "run_dir": "results/model_outputs/run111",
+  "summary_csv": "results/model_outputs/三模型精度对比表.csv",
+  "summary_xlsx": "not_included",
+  "best_current_run": "run_111",
+  "judge": {
+    "best_r2_model": "Bi-LSTM",
+    "best_rmse_model": "Bi-LSTM",
+    "best_mae_model": "Bi-LSTM",
+    "best_rae_model": "Bi-LSTM",
+    "best_model": "Bi-LSTM",
+    "bilstm_better_than_baselines_core": true,
+    "bilstm_meets_thesis_requirement": true,
+    "bilstm_meets_recommended_target": true,
+    "can_generate_final_thesis_figures": true,
+    "judgement": "Bi-LSTM在R²、RMSE、MAE、RAE等核心指标上整体优于RF和LSTM，且达到论文最低使用阈值；nRMSE/nMAE仅作为辅助约束，不能替代R²和RAE判断。"
+  },
+  "lstm_best_config": {
+    "bidirectional": false,
+    "units": 48,
+    "dropout": 0.25,
+    "lr": 0.0008,
+    "batch_size": 16,
+    "epochs": 280,
+    "patience": 40,
+    "seed": 42,
+    "l2": 0.0001,
+    "config_index": 2
+  },
+  "bilstm_best_config": {
+    "bidirectional": true,
+    "units": 16,
+    "dropout": 0.3,
+    "lr": 0.0008,
+    "batch_size": 8,
+    "epochs": 360,
+    "patience": 55,
+    "seed": 42,
+    "l2": 0.0005,
+    "pooling": "attention",
+    "loss": "huber_mae",
+    "huber_delta": 0.3,
+    "huber_weight": 0.7,
+    "mae_weight": 0.3,
+    "sample_weight": "tail",
+    "tail_alpha": 0.6,
+    "tail_cap": 2.2,
+    "calibration": "linear",
+    "residual_correction": "ridge",
+    "residual_scale": 0.25,
+    "select_metric": "rank_rmse_mae_rae",
+    "config_index": 3,
+    "calibration_coef": 1.038581132888794,
+    "calibration_intercept": -0.30513572692871094,
+    "residual_ridge_alpha": 1000.0,
+    "selection_metric": "rank(val_RMSE)+rank(val_MAE)+0.5*rank(val_RAE)",
+    "selection_value": 3.5
+  },
+  "metrics": {
+    "随机森林(RF)": {
+      "R²": 0.8183006162121861,
+      "RMSE": 0.3755089243289911,
+      "MAE": 0.23960711239011687,
+      "RAE": 0.38478345953614096,
+      "nRMSE(%)": 5.761834078020323,
+      "nMAE(%)": 3.6765475759928132
+    },
+    "LSTM": {
+      "R²": 0.8469264911610553,
+      "RMSE": 0.34466211950984754,
+      "MAE": 0.2145468309343491,
+      "RAE": 0.3445393211242569,
+      "nRMSE(%)": 5.288518639452301,
+      "nMAE(%)": 3.2920209393632196
+    },
+    "Bi-LSTM": {
+      "R²": 0.8943759138459573,
+      "RMSE": 0.2863024193165393,
+      "MAE": 0.18157749084831812,
+      "RAE": 0.291594078345855,
+      "nRMSE(%)": 4.393043492070054,
+      "nMAE(%)": 2.7861371775405486
+    }
+  },
+  "source_data_dir": "data/processed"
+}
