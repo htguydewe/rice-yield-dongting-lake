@@ -1,7 +1,7 @@
-﻿{
+{
   "run_id": "run_111",
   "created_at": "2026-05-21T01:23:05",
-  "source_dir": "D:\\保保\\论文\\run73_33县输入数据_历史滞后_训练集目标编码_20260521",
+  "source_dir": "data/processed",
   "profile": "compound_tail_micro",
   "split_mode": "random",
   "holdout_years": [

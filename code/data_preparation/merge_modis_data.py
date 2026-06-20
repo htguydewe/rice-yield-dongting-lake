@@ -8,18 +8,18 @@ from datetime import datetime
 import glob
 
 # 设置路径
-ndvi_path = "D:\\保保\\论文\\数据\\下载数据_裁剪\\MODIS_Monthly\\MOD13Q1_39Counties_Merged_NDVI-20260506T150007Z-3-001\\MOD13Q1_39Counties_Merged_NDVI"
-evi_path = "D:\\保保\\论文\\数据\\下载数据_裁剪\\MODIS_Monthly\\MOD13Q1_39Counties_Merged_EVI-20260506T150008Z-3-001\\MOD13Q1_39Counties_Merged_EVI"
-county_boundary_path = "D:\\保保\\论文\\数据\\下载数据_裁剪\\县级\\中国_县_洞庭湖Areas_Clip_197县清单.csv"
-cropland_mask_base = "D:\\保保\\论文\\数据\\下载数据_裁剪\\县_耕地掩膜_CLCD"
-output_base = "D:\\保保\\论文\\输出\\69县数据集"
+ndvi_path = "data/raw/MODIS_Monthly/MOD13Q1_39Counties_Merged_NDVI"
+evi_path = "data/raw/MODIS_Monthly/MOD13Q1_39Counties_Merged_EVI"
+county_boundary_path = "data/raw/county_boundaries/dongting_counties.csv"
+cropland_mask_base = "data/raw/cropland_masks_CLCD"
+output_base = "outputs/69_county_dataset"
 
 # 创建输出目录
 os.makedirs(output_base, exist_ok=True)
 
 # 读取30县数据集
 print("读取30县数据集...")
-thirty_counties_data = pd.read_csv("D:\\保保\\论文\\输出\\三十县数据集\\modis\\county_modis_all_data_filled_from_gee.csv")
+thirty_counties_data = pd.read_csv("data/interim/county_modis_all_data_filled_from_gee.csv")
 print(f"30县数据集包含 {len(thirty_counties_data)} 行数据")
 
 # 读取县级边界数据

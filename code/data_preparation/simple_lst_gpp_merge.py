@@ -3,13 +3,13 @@ import pandas as pd
 import glob
 
 # 设置路径
-lst_path = "D:\\保保\\论文\\数据\\下载数据_裁剪\\MODIS_Monthly\\modis-11A2-061\\LST_Day_1km"
-gpp_path = "D:\\保保\\论文\\数据\\下载数据_裁剪\\MODIS_Monthly\\modis-17A2HGF-061\\resampled_1km"
-output_base = "D:\\保保\\论文\\输出\\69县数据集"
+lst_path = "data/raw/MODIS_Monthly/modis-11A2-061/LST_Day_1km"
+gpp_path = "data/raw/MODIS_Monthly/modis-17A2HGF-061/resampled_1km"
+output_base = "outputs/69_county_dataset"
 
 # 读取30县数据集
 print("读取30县数据集...")
-thirty_counties_data = pd.read_csv("D:\\保保\\论文\\输出\\三十县数据集\\modis\\county_modis_all_data_filled_from_gee.csv", encoding='utf-8')
+thirty_counties_data = pd.read_csv("data/interim/county_modis_all_data_filled_from_gee.csv", encoding="utf-8")
 print(f"30县数据集包含 {len(thirty_counties_data)} 行数据")
 
 # 获取LST和GPP文件

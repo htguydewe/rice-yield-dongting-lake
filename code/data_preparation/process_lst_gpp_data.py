@@ -8,18 +8,18 @@ import glob
 from datetime import datetime
 
 # 设置路径
-lst_path = "D:\\保保\\论文\\数据\\下载数据_裁剪\\MODIS_Monthly\\modis-11A2-061\\LST_Day_1km"
-gpp_path = "D:\\保保\\论文\\数据\\下载数据_裁剪\\MODIS_Monthly\\modis-17A2HGF-061\\resampled_1km"
-county_boundary_path = "D:\\保保\\论文\\数据\\下载数据_裁剪\\县级\\中国_县_洞庭湖Areas_Clip_197县清单.csv"
-cropland_mask_base = "D:\\保保\\论文\\数据\\下载数据_裁剪\\县_耕地掩膜_CLCD"
-output_base = "D:\\保保\\论文\\输出\\69县数据集"
+lst_path = "data/raw/MODIS_Monthly/modis-11A2-061/LST_Day_1km"
+gpp_path = "data/raw/MODIS_Monthly/modis-17A2HGF-061/resampled_1km"
+county_boundary_path = "data/raw/county_boundaries/dongting_counties.csv"
+cropland_mask_base = "data/raw/cropland_masks_CLCD"
+output_base = "outputs/69_county_dataset"
 
 # 创建输出目录
 os.makedirs(output_base, exist_ok=True)
 
 # 读取30县数据集
 print("读取30县数据集...")
-thirty_counties_data = pd.read_csv("D:\\保保\\论文\\输出\\三十县数据集\\modis\\county_modis_all_data_filled_from_gee.csv", encoding='utf-8')
+thirty_counties_data = pd.read_csv("data/interim/county_modis_all_data_filled_from_gee.csv", encoding="utf-8")
 print(f"30县数据集包含 {len(thirty_counties_data)} 行数据")
 
 # 读取县级边界数据
