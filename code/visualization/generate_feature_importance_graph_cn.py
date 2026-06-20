@@ -10,7 +10,7 @@ import pandas as pd
 from matplotlib import font_manager
 
 
-ROOT = Path(r"D:\保保\论文")
+ROOT = Path(r".")
 RF_MODEL = ROOT / "run_111_模型对比结果" / "RF_随机森林模型.joblib"
 CONFIG = ROOT / "run_111_模型对比结果" / "本轮代码或参数配置.json"
 FIG_NAME = "特征重要性图"

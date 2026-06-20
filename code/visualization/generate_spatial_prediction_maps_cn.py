@@ -11,8 +11,8 @@ from matplotlib.colors import BoundaryNorm, ListedColormap
 from matplotlib.patches import Patch
 
 
-ROOT = Path(r"D:\保保\论文")
-BOUNDARY_GDB = Path(r"D:\26毕业论文\论文\Arcgis文件\MyProject-32县\MyProject-32县.gdb")
+ROOT = Path(r".")
+BOUNDARY_GDB = Path(r"external_data\thesis_workspace\Arcgis文件\MyProject-32县\MyProject-32县.gdb")
 BOUNDARY_LAYER = "洞庭湖区_县级内边界_33县"
 OUT_DIR = ROOT / "模型预测空间分布图"
 

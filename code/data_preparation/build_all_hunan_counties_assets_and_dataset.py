@@ -18,7 +18,7 @@ from rasterio.transform import from_origin
 from rasterio.warp import Resampling, reproject
 
 
-ROOT = Path(r"D:\保保\论文")
+ROOT = Path(r".")
 GDB_PATH = ROOT / "Arcgis文件" / "土地利用" / "土地利用.gdb"
 GDB_LAYER = "中国_县_洞庭湖Areas_Clip"
 ALL_CLCD_DIR = ROOT / "数据" / "全国土地覆盖数据（不分省）" / "原始数据"

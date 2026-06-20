@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 
-WORKSPACE = Path(r"D:\保保\论文")
+WORKSPACE = Path(r".")
 RESULT_GLOB = "模型精度修复执行结果_*"
 BASE_SAMPLE_NAME = "县年份建模样本_特征表.csv"
 MECH_DIR = WORKSPACE / "数据" / "农业机制变量"

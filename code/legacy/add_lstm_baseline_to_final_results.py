@@ -9,8 +9,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 
-INPUT_PATH = r"D:\26毕业论文\论文\输出\三十县数据集\DEM补充数据\三十县数据集_含DEM_2010-2021年_4-10月.csv"
-RESULT_DIR = r"D:\26毕业论文\论文\输出\论文版BiLSTM_MSE定向优化结果_20260510_173328"
+INPUT_PATH = r"external_data\thesis_workspace\输出\三十县数据集\DEM补充数据\三十县数据集_含DEM_2010-2021年_4-10月.csv"
+RESULT_DIR = r"external_data\thesis_workspace\输出\论文版BiLSTM_MSE定向优化结果_20260510_173328"
 MONTHS = [4, 5, 6, 7, 8, 9, 10]
 FEATURES = ["NDVI", "EVI", "LST", "GPP", "气温", "降水", "辐射", "DEM_Mean", "DEM_Std"]
 TARGET = "单产"

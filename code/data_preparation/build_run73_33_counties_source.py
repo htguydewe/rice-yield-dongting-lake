@@ -18,8 +18,8 @@ from rasterio.transform import from_origin
 from shapely.geometry import Point
 
 
-WORKSPACE = Path(r"D:\保保\论文")
-RELATED_ROOT = Path(r"D:\26毕业论文\论文")
+WORKSPACE = Path(r".")
+RELATED_ROOT = Path(r"external_data\thesis_workspace")
 OUT_DIR = WORKSPACE / f"run73_33县输入数据_{datetime.now():%Y%m%d_%H%M%S}"
 
 ALL_HUNAN_INPUT = RELATED_ROOT / "数据" / "下载数据_裁剪" / "湖南全县_模型输入表_2010_2021" / "all_hunan_counties_model_input_2010_2021_full.csv"

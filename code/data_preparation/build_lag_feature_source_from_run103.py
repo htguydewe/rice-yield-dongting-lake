@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 
-WORKSPACE = Path(r"D:\保保\论文")
+WORKSPACE = Path(r".")
 SOURCE_DIR = WORKSPACE / "run73_33县输入数据_20260520_233323"
 OUT_DIR = WORKSPACE / f"run73_33县输入数据_历史滞后特征_{datetime.now():%Y%m%d_%H%M%S}"
 

@@ -23,8 +23,8 @@ import tensorflow as tf
 from tensorflow.keras import callbacks, layers, models, regularizers
 
 
-SOURCE_CSV = Path(r"D:\26毕业论文\论文\输出\三十县数据集\（无云溪）三十县完整数据集_2010-2021年_4-10月.csv")
-BASE_OUTPUT = Path(r"D:\26毕业论文\论文\输出\三十县数据集")
+SOURCE_CSV = Path(r"external_data\thesis_workspace\输出\三十县数据集\（无云溪）三十县完整数据集_2010-2021年_4-10月.csv")
+BASE_OUTPUT = Path(r"external_data\thesis_workspace\输出\三十县数据集")
 DYNAMIC_FEATURES = ["NDVI", "EVI", "LST", "GPP", "气温", "降水", "辐射"]
 MONTHS = list(range(4, 11))
 SEED = 42

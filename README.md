@@ -13,7 +13,9 @@ code/
   visualization/     Figure-generation scripts
   legacy/            Earlier experimental scripts kept for traceability
 data/
-  processed/         Cleaned CSV data used for modeling
+  processed/         Cleaned CSV data used by final run111
+  run111_modeling_input/
+                     Canonical run111 county-year table and train/validation/test split
 results/
   final_figures/     Final thesis figures: Figure 1.1, Figure 2.1, Figure 3.1-3.3, Figure 4.1-4.12
   model_outputs/     run111 metrics, predictions, residuals, and related result files
@@ -26,11 +28,17 @@ docs/
 
 The repository includes cleaned and aggregated modeling tables, not raw remote-sensing imagery or large GIS files.
 
+The final thesis uses 33 counties/county-level districts in the Dongting Lake Ecological Economic Zone planning scope, with 330 county-year samples and 2310 monthly records for 2012-2021. These 33 counties are the final thesis study units.
+
 Main processed data files:
 
 - `data/processed/月尺度数据_稳定耕地_清洗后.csv`
 - `data/processed/县年份建模样本_仅遥感气象地形.csv`
 - `data/processed/县年份建模样本_清洗_农业机制变量.csv`
+- `data/run111_modeling_input/run111_county_year_modeling_table.csv`
+- `data/run111_modeling_input/run111_train_samples.csv`
+- `data/run111_modeling_input/run111_validation_samples.csv`
+- `data/run111_modeling_input/run111_test_samples.csv`
 - Audit and coverage reports for variable matching, yield matching, lag features, and target encoding
 
 Raw MODIS, ERA5-Land, CLCD, DEM, administrative boundary, ArcGIS, and yearbook/PDF files are not included because of file size and source-data licensing considerations.

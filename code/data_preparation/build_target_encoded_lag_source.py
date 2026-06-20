@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path(r"D:\保保\论文")
+ROOT = Path(r".")
 SOURCE_DIR = ROOT / "run73_33县输入数据_历史滞后特征_20260520_235001"
 RUN105_DIR = ROOT / "run_105_模型对比结果"
 OUT_DIR = ROOT / "run73_33县输入数据_历史滞后_训练集目标编码_20260521"

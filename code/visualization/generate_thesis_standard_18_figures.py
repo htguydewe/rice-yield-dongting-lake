@@ -15,13 +15,13 @@ from matplotlib.colors import TwoSlopeNorm
 from sklearn.metrics import mean_squared_error
 
 
-ROOT = Path(r"D:\保保\论文")
+ROOT = Path(r".")
 OUT_DIR = ROOT / "论文标准图_20260522_18图_final"
 DATA_DIR = ROOT / "run73_33县输入数据_历史滞后_训练集目标编码_20260521"
 RUN111 = ROOT / "run_111_模型对比结果"
 RUN112 = ROOT / "run_112_XGBoost_GRU_run111同划分"
 RUN113 = ROOT / "run_113_BiLSTM_逐种子集成_run111同划分"
-SHP = Path(r"D:\26毕业论文\论文\数据\下载数据_裁剪\县级\全洞庭湖区_33县域_合并图层\全洞庭湖区_33县域.shp")
+SHP = Path(r"external_data\thesis_workspace\数据\下载数据_裁剪\县级\全洞庭湖区_33县域_合并图层\全洞庭湖区_33县域.shp")
 
 ANNUAL = DATA_DIR / "县年份建模样本_清洗_农业机制变量.csv"
 MONTHLY = DATA_DIR / "月尺度数据_稳定耕地_清洗后.csv"

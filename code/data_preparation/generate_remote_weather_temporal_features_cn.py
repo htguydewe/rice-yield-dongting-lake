@@ -6,15 +6,15 @@ import pandas as pd
 from matplotlib import font_manager
 
 
-SOURCE_CSV = Path(r"D:\保保\论文\run73_33县输入数据_历史滞后_训练集目标编码_20260521\月尺度数据_稳定耕地_清洗后.csv")
-OUT_DIR = Path(r"D:\26毕业论文\论文\输出\图表(2)\遥感与气象因子时序变化特征图")
+SOURCE_CSV = Path(r".\run73_33县输入数据_历史滞后_训练集目标编码_20260521\月尺度数据_稳定耕地_清洗后.csv")
+OUT_DIR = Path(r"external_data\thesis_workspace\输出\图表(2)\遥感与气象因子时序变化特征图")
 
 
 def setup_chinese_font() -> None:
     candidates = [
-        r"C:\Windows\Fonts\simhei.ttf",
-        r"C:\Windows\Fonts\msyh.ttc",
-        r"C:\Windows\Fonts\simsun.ttc",
+        r"fonts\simhei.ttf",
+        r"fonts\msyh.ttc",
+        r"fonts\simsun.ttc",
     ]
     for font_path in candidates:
         if Path(font_path).exists():

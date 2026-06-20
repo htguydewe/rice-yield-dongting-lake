@@ -11,7 +11,7 @@ from rasterio.features import geometry_mask
 from rasterio.warp import Resampling, reproject
 
 
-ROOT = Path(r"D:\保保\论文")
+ROOT = Path(r".")
 MONTHLY_DIR = ROOT / "数据" / "下载数据_裁剪" / "MODIS_Monthly" / "MOD13Q1_Missing_1km-20260428T155020Z-3-001" / "MOD13Q1_Missing_1km"
 CROPLAND_ROOT = ROOT / "数据" / "下载数据_裁剪" / "十县_耕地掩膜_CLCD"
 SHP_ROOT = ROOT / "数据" / "下载数据_裁剪" / "十县" / "十县_单独shp"

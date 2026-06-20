@@ -12,13 +12,13 @@ import pandas as pd
 from shapely.geometry import Point
 
 
-WORKSPACE = Path(r"D:\保保\论文")
+WORKSPACE = Path(r".")
 MECH_DIR = WORKSPACE / "数据" / "农业机制变量"
 GLORICE_CLEAN = MECH_DIR / "GloRice_水稻面积复种代理" / "clean" / "县年GloRice水稻面积复种代理_2012_2021.csv"
 OUT_DIR = MECH_DIR / "稻作结构_灌溉代理"
 RAW_DIR = OUT_DIR / "raw"
 CLEAN_DIR = OUT_DIR / "clean"
-COUNTY_SHP_ROOT = Path(r"D:\26毕业论文\论文\数据\下载数据_裁剪\县级\县_单独shp")
+COUNTY_SHP_ROOT = Path(r"external_data\thesis_workspace\数据\下载数据_裁剪\县级\县_单独shp")
 STATIC_TEMPLATE = MECH_DIR / "机制变量录入模板_县级静态.csv"
 COUNTY_YEAR_TEMPLATE = MECH_DIR / "机制变量录入模板_县年.csv"
 

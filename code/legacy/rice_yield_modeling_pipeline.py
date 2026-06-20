@@ -12,9 +12,9 @@ from sklearn.preprocessing import StandardScaler
 
 
 SEED = 42
-INPUT_PATH = r"D:\26毕业论文\论文\输出\三十县数据集\（无云溪）三十县完整数据集_2010-2021年_4-10月.csv"
-DEM_FALLBACK_PATH = r"D:\26毕业论文\论文\输出\三十县数据集\DEM补充数据\三十县数据集_含DEM_2010-2021年_4-10月.csv"
-OUTPUT_ROOT = r"D:\26毕业论文\论文\输出"
+INPUT_PATH = r"external_data\thesis_workspace\输出\三十县数据集\（无云溪）三十县完整数据集_2010-2021年_4-10月.csv"
+DEM_FALLBACK_PATH = r"external_data\thesis_workspace\输出\三十县数据集\DEM补充数据\三十县数据集_含DEM_2010-2021年_4-10月.csv"
+OUTPUT_ROOT = r"external_data\thesis_workspace\输出"
 
 ID_COLS = ["县名", "年份", "月份"]
 FEATURES = ["NDVI", "EVI", "LST", "GPP", "气温", "降水", "辐射", "DEM_Mean", "DEM_Std"]

@@ -8,7 +8,7 @@ import pandas as pd
 from matplotlib import font_manager
 
 
-ROOT = Path(r"D:\保保\论文")
+ROOT = Path(r".")
 OUT_DIR = ROOT / "Taylor图"
 
 MODEL_FILES = {

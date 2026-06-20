@@ -33,8 +33,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, RobustScaler, StandardScaler
 
 
-WORKSPACE = Path(r"D:\保保\论文")
-COUNTY_SHAPE_ROOT = Path(r"D:\26毕业论文\论文\数据\下载数据_裁剪\县级\县_单独shp")
+WORKSPACE = Path(r".")
+COUNTY_SHAPE_ROOT = Path(r"external_data\thesis_workspace\数据\下载数据_裁剪\县级\县_单独shp")
 RESULT_GLOB = "模型精度提升实验结果_*"
 RUN_DIR_PATTERN = re.compile(r"run_(\d{3})_模型对比结果$")
 HUNAN_CITY_NAMES = {

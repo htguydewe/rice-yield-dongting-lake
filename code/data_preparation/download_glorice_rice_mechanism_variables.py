@@ -15,13 +15,13 @@ import xarray as xr
 from shapely.geometry import Point
 
 
-WORKSPACE = Path(r"D:\保保\论文")
+WORKSPACE = Path(r".")
 MECH_DIR = WORKSPACE / "数据" / "农业机制变量"
 OUT_DIR = MECH_DIR / "GloRice_水稻面积复种代理"
 RAW_DIR = OUT_DIR / "raw"
 CLEAN_DIR = OUT_DIR / "clean"
 BASE_SAMPLE = WORKSPACE / "模型精度修复执行结果_20260510_222832" / "县年份建模样本_特征表.csv"
-COUNTY_SHP_ROOT = Path(r"D:\26毕业论文\论文\数据\下载数据_裁剪\县级\县_单独shp")
+COUNTY_SHP_ROOT = Path(r"external_data\thesis_workspace\数据\下载数据_裁剪\县级\县_单独shp")
 COUNTY_YEAR_TEMPLATE = MECH_DIR / "机制变量录入模板_县年.csv"
 
 FIGSHARE_ARTICLE = "https://api.figshare.com/v2/articles/25752207"

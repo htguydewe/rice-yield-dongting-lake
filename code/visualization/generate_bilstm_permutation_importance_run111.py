@@ -21,7 +21,7 @@ RUN_DIR = next(p for p in ROOT.iterdir() if p.is_dir() and p.name.startswith("ru
 SCRIPT_SNAPSHOT = next(p for p in RUN_DIR.iterdir() if p.name.endswith("训练脚本快照.py"))
 CONFIG_PATH = next(p for p in RUN_DIR.iterdir() if p.name.endswith("配置.json"))
 
-OUTPUT_DIR = Path(r"D:\26毕业论文\论文\输出\图表(2)\特征重要性图")
+OUTPUT_DIR = Path(r"external_data\thesis_workspace\输出\图表(2)\特征重要性图")
 OUTPUT_PNG = OUTPUT_DIR / "Bi-LSTM变量置换重要性排序图.png"
 OUTPUT_CSV = OUTPUT_DIR / "Bi-LSTM变量置换重要性结果.csv"
 OUTPUT_METRICS = OUTPUT_DIR / "Bi-LSTM变量置换重要性_基准指标.csv"

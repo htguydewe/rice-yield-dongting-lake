@@ -9,7 +9,7 @@ from matplotlib import font_manager
 from matplotlib.colors import LinearSegmentedColormap
 
 
-ROOT = Path(r"D:\保保\论文")
+ROOT = Path(r".")
 DATA = (
     ROOT
     / "run73_33县输入数据_历史滞后特征_2013_2021_20260521_005945"

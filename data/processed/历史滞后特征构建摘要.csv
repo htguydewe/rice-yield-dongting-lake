@@ -1,6 +1,6 @@
 ﻿item,value
-source_dir,D:\保保\论文\run73_33县输入数据_20260520_233323
-out_dir,D:\保保\论文\run73_33县输入数据_历史滞后特征_20260520_235001
+source_dir,.\run73_33县输入数据_20260520_233323
+out_dir,.\run73_33县输入数据_历史滞后特征_20260520_235001
 county_year_samples,330
 lag_feature_count,16
 leakage_guard,仅使用同县历史年份单产/面积，不使用当年真实单产派生特征
